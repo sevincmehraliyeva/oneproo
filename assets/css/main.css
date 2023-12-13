@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+}
+.collapse {
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+#businesstheme {
+  background-image: url(/assets/img/slide-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+#businesstheme .businessthemecontainer {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin: 30px;
+}
+#businesstheme .businessthemecontainer .businesstext {
+  padding: 20px;
+  margin: 20px;
+}
+#businesstheme .businessthemecontainer .businesstext p {
+  width: 50%;
+}
+#businesstheme .businessthemecontainer .businesstext button {
+  background-color: #28B6E5;
+  border: 0;
+  padding: 10px 10px;
+  color: white;
+}
+
+#ourAwesome .ourAwesome {
+  text-align: center;
+}
+#ourAwesome .ourAwesome h3 {
+  padding: 10px;
+}
+#ourAwesome .ourAwesome p {
+  width: 70%;
+  margin: auto;
+}
+#ourAwesome .ourAwesome .webdesign p {
+  display: inline-block;
+}
+
+#imgDiv .imgDiv img {
+  width: 100%;
+  padding: 10px;
+}
+
+#ourHome .ourHome {
+  text-align: center;
+}
+#ourHome .ourHome span {
+  color: blue;
+}
+#ourHome .ourHome p {
+  width: 70%;
+  margin: auto;
+}
+
+#topPanel .topPanel img {
+  width: 100%;
+}
+#topPanel p {
+  background-color: #26B7E7;
+  color: white;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+}
